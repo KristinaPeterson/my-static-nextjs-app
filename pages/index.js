@@ -7,7 +7,7 @@ export default function Index({ time }) {
   )
 }
 
-export async function getServerSideProps({ req, res }) {
+/* export async function getServerSideProps({ req, res }) {
   res.setHeader(
     'Cache-Control',
     'public, s-maxage=10, stale-while-revalidate=59'
@@ -18,4 +18,4 @@ export async function getServerSideProps({ req, res }) {
       time: new Date().toISOString(),
     },
   }
-}
+} */
